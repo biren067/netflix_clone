@@ -22,7 +22,7 @@ export default function Home() {
                     <option value='en'>English</option>
                     <option value='hi'>हिंदी</option>
                 </select> 
-                <button className='bg-red-600 text-white h-10 rounded-md px-6 py-1'>Login In</button>
+                <Link href="/mainpage"><button className='bg-red-600 text-white h-10 rounded-md px-6 py-1'>Login In</button></Link>
                 </div>
                 <div className={`${styles.home__image_description}`}>home__image_description</div>
             </div>
