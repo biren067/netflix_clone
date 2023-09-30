@@ -9,6 +9,16 @@ height: 448px;
 /* padding-top: 30px; */
 /* margin-bottom:30px;   */
 }
+.banner__logo{
+    position: fixed;
+    top:0;
+    transition-timing-function: ease-in;
+    transition: all 1.5s;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 .banner__content{
 width:40%;
 margin-left: 10px;

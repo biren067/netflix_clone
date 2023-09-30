@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import { useState } from 'react'
 import axios from '@/data/axios'
 import endpoints from '@/data/endpoints'
-import HomePage from '@/components/HomePage'
+import MainPage from '@/components/MainPage'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <>
 
-      <HomePage/>
+      <MainPage/>
     </>
   )
 }

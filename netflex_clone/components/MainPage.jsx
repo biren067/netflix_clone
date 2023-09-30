@@ -3,7 +3,7 @@ import axios from '@/data/axios'
 import Row from '@/components/Row'
 import endpoints from '@/data/endpoints'
 import Banner from '@/components/Banner'
-function HomePage() {
+function MainPage() {
   return (
     <>
         <Banner/>
@@ -19,4 +19,4 @@ function HomePage() {
   )
 }
 
-export default HomePage
+export default MainPage
